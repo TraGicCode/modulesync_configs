@@ -1,5 +1,5 @@
-source ENV['GEM_SOURCE'] || "https://rubygems.org"
+source ENV['GEM_SOURCE'] || 'https://rubygems.org'
 
+gem 'modulesync', git: 'https://github.com/voxpupuli/modulesync.git', branch: 'master'
 gem 'rake'
-gem 'modulesync', :git => 'https://github.com/voxpupuli/modulesync.git', :branch => 'master'
 gem 'rubocop'
