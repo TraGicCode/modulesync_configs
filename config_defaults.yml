@@ -2,6 +2,7 @@
   :global:
     supported_oss:
       tragiccode-octopusdeployserver:      [windows]
+      tragiccode-octopusdeploytentacle:    [windows]
       tragiccode-ssh:                      [windows]
       puppetlabs-inifile:                  [linux,windows]
       puppetlabs-accounts:                 [linux]
