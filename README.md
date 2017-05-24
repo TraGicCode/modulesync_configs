@@ -9,7 +9,7 @@
 
 
 # NOTE
-If you have posh-git and Win32-OpenSSH Installed they will fight and not use the same version of ssh-agent and ssh-add
+If you have posh-git and Win32-OpenSSH Installed they will fight and not use the same version of ssh-agent and ssh-add.  Also be sure to start-sshagent if using posh git
 
 
 # Common usecase examples
