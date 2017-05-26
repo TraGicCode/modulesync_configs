@@ -2,6 +2,7 @@
   :global:
     supported_oss:
       tragiccode-nservicebusservicecontrol:      [windows]
+      tragiccode-nservicebusservicepulse:        [windows]
       tragiccode-octopusdeployserver:            [windows]
       tragiccode-octopusdeploytentacle:          [windows]
       tragiccode-ssh:                            [windows]
