@@ -3,6 +3,7 @@
     supported_oss:
       tragiccode-nservicebusservicecontrol:      [windows]
       tragiccode-nservicebusservicepulse:        [windows]
+      tragiccode-vscode:                         [windows]
       tragiccode-octopusdeployserver:            [windows]
       tragiccode-octopusdeploytentacle:          [windows]
       tragiccode-ssh:                            [windows]
