@@ -1,5 +1,10 @@
 fixtures:
     repositories:
+<% if @configs['repositories'] -%>
+<%   @configs['repositories'].each do |repository| -%>
+      <%= repository['module_name'] %>: '<%= repository['module_git_url'] %>'
+<%   end -%>
+<% end -%>
       stdlib: 'https://github.com/puppetlabs/puppetlabs-stdlib.git'
     symlinks:
       <%= @configs[:puppet_module].split('-')[1] %>: "#{source_dir}"
