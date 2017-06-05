@@ -1,6 +1,7 @@
 ---
   :global:
     supported_oss:
+      tragiccode-sqlproofofconcept:              [windows]
       tragiccode-activedirectory:                [windows]
       tragiccode-nservicebusservicecontrol:      [windows]
       tragiccode-nservicebusservicepulse:        [windows]
