@@ -4,3 +4,4 @@ log/
 spec/fixtures/
 .yardoc/
 doc/
+pkg/
