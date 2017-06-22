@@ -10,5 +10,6 @@
       tragiccode-octopusdeployserver:            [windows]
       tragiccode-octopusdeploytentacle:          [windows]
       tragiccode-ssh:                            [windows]
+      tragiccode-errbot:                         [linux]
       puppetlabs-inifile:                        [linux,windows]
       puppetlabs-accounts:                       [linux]
