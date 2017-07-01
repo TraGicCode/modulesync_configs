@@ -1,7 +1,7 @@
 ---
   :global:
     supported_oss:
-      tragiccode-sqlproofofconcept:              [windows]
+      tragiccode-ravendb:                        [windows]
       tragiccode-activedirectory:                [windows]
       tragiccode-dnsserver:                      [windows]
       tragiccode-nservicebusservicecontrol:      [windows]
