@@ -1,6 +1,7 @@
 ---
   :global:
     supported_oss:
+      tragiccode-wsusserver:                     [windows]
       tragiccode-googlecloudstorage:             [windows]
       tragiccode-ravendb:                        [windows]
       tragiccode-activedirectory:                [windows]
