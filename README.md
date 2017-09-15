@@ -16,6 +16,11 @@
 > bundle exec msync update -f <regex> --noop
 ```
 
+# I want to update my fork with modulesync config from voxpopuli in order to cut a release
+```
+  > bundle exec msync update -f windowsfeature -n tragiccode -b release_prep -m "Preping for release"
+```
+
 # NOTE
 If you have posh-git and Win32-OpenSSH Installed they will fight and not use the same version of ssh-agent and ssh-add.  Also be sure to start-sshagent if using posh git
 
@@ -49,3 +54,6 @@ To mark a file "unmanaged", list it in .sync.yml with the value unmanaged: true.
 ---
 spec/spec_helper.rb:
   unmanaged: true
+
+
+
