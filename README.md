@@ -45,7 +45,7 @@ spec/acceptance/nodesets/sles-11sp1-x64.yml
 ```
 
 
-#Unmanaged Files
+# Unmanaged Files
 
 A file can be marked "unmanaged" in .sync.yml, in which case modulesync will not try to modify it. This is useful if, for example, the module has special Rake tasks in the Rakefile which is difficult to manage through a template.
 
