@@ -29,12 +29,12 @@ If you have posh-git and Win32-OpenSSH Installed they will fight and not use the
 Managing files may mean removing files. You can ensure a file is absent by marking it "delete". This is useful for purging nodesets.
 
 To mark a file deleted, list it in .sync.yml with the value delete: true. For example,
-
+```
 ---
 spec/acceptance/nodesets/sles-11sp1-x64.yml
   delete: true
-
-
+```
+```
 ---
   .fixtures.yml:
     repositories:
@@ -42,7 +42,7 @@ spec/acceptance/nodesets/sles-11sp1-x64.yml
         module_git_url: 'https://github.com/puppetlabs/puppetlabs-powershell.git'
   Guardfile:
     delete: true
-
+```
 
 
 #Unmanaged Files
@@ -50,10 +50,10 @@ spec/acceptance/nodesets/sles-11sp1-x64.yml
 A file can be marked "unmanaged" in .sync.yml, in which case modulesync will not try to modify it. This is useful if, for example, the module has special Rake tasks in the Rakefile which is difficult to manage through a template.
 
 To mark a file "unmanaged", list it in .sync.yml with the value unmanaged: true. For example,
-
+```
 ---
 spec/spec_helper.rb:
   unmanaged: true
 
-
+```
 
