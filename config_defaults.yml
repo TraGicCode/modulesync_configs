@@ -1,6 +1,7 @@
 ---
   :global:
     supported_oss:
+      modulesync_playground:                     [windows]
       tragiccode-wsusserver:                     [windows]
       tragiccode-googlecloudstorage:             [windows]
       tragiccode-ravendb:                        [windows]
