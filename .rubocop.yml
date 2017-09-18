@@ -17,6 +17,8 @@ Layout/IndentHeredoc:
 Metrics/LineLength:
   Description: People have wide screens, use them.
   Max: 200
+Naming/HeredocDelimiterNaming:
+  Enabled: False
 Style/SignalException:
   Enabled: true
   Exclude:
