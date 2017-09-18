@@ -1,2 +1,3 @@
 .bundle/
 modules/
+Gemfile.lock
