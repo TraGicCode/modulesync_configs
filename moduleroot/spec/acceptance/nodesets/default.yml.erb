@@ -11,6 +11,7 @@ supports_windows = (
 )
 if supports_windows -%>
 ---
+# This file is managed via modulesync
 HOSTS:
   windows-2016-standard:
     roles:
@@ -29,6 +30,7 @@ CONFIG:
   type: aio
 <% else -%>
 ---
+# This file is managed via modulesync
 HOSTS:
   ubuntu-1604-x64:
     roles:
