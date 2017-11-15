@@ -64,12 +64,12 @@ While this is technically not related to modulesync this seemed like the best pl
 
 ## Bump metadata.json using blacksmith
 ```
-  > bundle exec rake module:bump:minor
+  > be rake module:bump:minor
 ```
 
 ## Generate Changelog
 ```
-  > bundle exec rake changelog
+  > be rake changelog
 ```
 
 ## Commit changes and add release tag and push
@@ -79,5 +79,7 @@ While this is technically not related to modulesync this seemed like the best pl
   > git push origin HEAD
 ```
 ## Build & Publish to forge using blacksmith
-be rake build
-be rake module:push
+```
+  > be rake build
+  > be rake module:push
+```
