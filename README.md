@@ -57,3 +57,22 @@ spec/spec_helper.rb:
 
 ```
 
+
+# Creating a module Release
+
+While this is technically not related to modulesync this seemed like the best place to put this.  Below are the following steps i currently take in order to release a module.
+
+## Bump metadata.json using blacksmith
+bundle exec rake module:bump:minor
+
+## Generate Changelog
+bundle exec rake changelog
+
+## Commit changes and add release tag and push
+git commit -m "Bump version to v0.2.0"
+git tag v0.2.0
+git push origin HEAD
+
+## Build & Publish to forge using blacksmith
+be rake build
+be rake module:push
