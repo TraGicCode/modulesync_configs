@@ -76,7 +76,7 @@ While this is technically not related to modulesync this seemed like the best pl
 ```
   > git commit -am "Bump version to v0.2.0"
   > git tag v0.2.0
-  > git push origin HEAD
+  > git push origin HEAD --tags
 ```
 ## Build & Publish to forge using blacksmith
 ```
