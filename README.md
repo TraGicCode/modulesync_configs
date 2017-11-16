@@ -74,7 +74,7 @@ While this is technically not related to modulesync this seemed like the best pl
 
 ## Commit changes and add release tag and push
 ```
-  > git commit -m "Bump version to v0.2.0"
+  > git commit -am "Bump version to v0.2.0"
   > git tag v0.2.0
   > git push origin HEAD
 ```
