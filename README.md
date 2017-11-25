@@ -24,6 +24,8 @@
 # NOTE
 If you have posh-git and Win32-OpenSSH Installed they will fight and not use the same version of ssh-agent and ssh-add.  Also be sure to start-sshagent if using posh git
 
+If you don't have ssh setup with git simply do the following
+bundle exec msync update -f vscode --noop --git-base=https://github.com/
 
 # Deleting a file in a module repo that is in the module_sync config repo
 Managing files may mean removing files. You can ensure a file is absent by marking it "delete". This is useful for purging nodesets.
